@@ -2,7 +2,7 @@ function log(msg) {
      //print("VDOnPrimary: " + msg);
 }
 
-var primaryScreen = readConfig("primaryScreen", "Virtual-1");
+var primaryScreen = workspace.activeScreen;
 
 function bind(window) {
     window.previousOutput = window.output;
@@ -23,10 +23,10 @@ function update(window) {
     var previousScreen = window.previousOutput;
     window.previousOutput = currentScreen;
 
-    if (currentScreen.name != primaryScreen) {
+    if (currentScreen != primaryScreen) {
         window.onAllDesktops = true;
         log("Window " + window.internalId + " has been pinned");
-    } else if (previousScreen.name != primaryScreen){
+    } else if (previousScreen != primaryScreen){
         window.desktops = [workspace.currentDesktop];
         log("Window " + window.internalId + " has been unpinned");
     }
