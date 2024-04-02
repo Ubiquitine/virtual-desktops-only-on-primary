@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Name": "Virtual Desktop Only on Primary Display",
+        "Description": "Makes virtual desktops work only on primary output",
+        "Icon": "preferences-desktop-virtual",
+
+        "Authors": [
+            {
+                "Name": "Berlioz-Ubiquitus"
+            },
+            {
+                "Name": "wsdfhjxc"
+            }
+        ],
+        "Id": "virtual-desktops-only-on-primary",
+        "Version": "0.2.0",
+        "License": "GPLv3",
+        "EnabledByDefault": false
+    },
+    "X-Plasma-API": "javascript",
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
+
