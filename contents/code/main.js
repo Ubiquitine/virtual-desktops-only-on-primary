@@ -2,7 +2,6 @@ function log(msg) {
      //print("VDOnPrimary: " + msg);
 }
 
-var primaryScreen = workspace.activeScreen;
 
 function bind(window) {
     window.previousOutput = window.output;
@@ -18,7 +17,7 @@ function update(window) {
         return;
     }
 
-    //var primaryScreen = 0;
+    const primaryScreen = workspace.screens[0];
     var currentScreen = window.output;
     var previousScreen = window.previousOutput;
     window.previousOutput = currentScreen;
