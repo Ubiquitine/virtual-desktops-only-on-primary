@@ -11,3 +11,7 @@ Update to Plasma 6
 ## 0.3
 
 Use workspace.activeScreen for primary output detection
+
+## 0.4
+
+Use workspace.screens[0] as primary screen
