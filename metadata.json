@@ -13,12 +13,13 @@
             }
         ],
         "Id": "virtual-desktops-only-on-primary",
-        "Version": "0.4.0",
+        "Version": "0.4.5",
         "License": "GPLv3",
         "EnabledByDefault": false
     },
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js",
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
     "KPackageStructure": "KWin/Script"
 }
 
