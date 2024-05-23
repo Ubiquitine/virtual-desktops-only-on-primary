@@ -19,3 +19,7 @@ In that case, in order to determine the index of you screen use the bash script 
 `bash ~/.local/share/kwin/scripts/virtual-desktops-only-on-primary/list-screens.sh`
 
 After running this script in the terminal you should see the names and the index numbers of your screens. You can then adjust the configuration accordingly.
+##
+
+### Preview:
+![VirtualBox_Neon_23_05_2024_18_31_01](https://github.com/Ubiquitine/virtual-desktops-only-on-primary/assets/3274951/64b30973-872f-47ec-a3fb-bcbb93f6ab49)
