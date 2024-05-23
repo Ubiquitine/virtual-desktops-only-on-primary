@@ -1,6 +1,6 @@
 {
     "KPlugin": {
-        "Name": "Virtual Desktop Only on Primary Display",
+        "Name": "Virtual Desktops Only on Primary Display",
         "Description": "Makes virtual desktops work only on primary output",
         "Icon": "preferences-desktop-virtual",
 
