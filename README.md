@@ -1,3 +1,8 @@
+# NOTICE
+Develpoment of this script has been ceased.
+Since KDE Plasma 6.6, there is an official script "Virtual Desktops Only on Primary" that does the same thing.
+Anyone is welcome to fork this repo and continue to work on this implementation, if the official one lacks something you need.
+
 # Virtual Desktops Only On Primary
 
 This is a script that brings a feature similar to GNOME Mutter's `workspaces-only-on-primary` option, that is switchable virtual desktops on the primary monitor, and non-switchable virtual desktops on other monitors.
